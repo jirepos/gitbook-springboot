@@ -2,6 +2,7 @@
 
 * [Page 1](README.md)
 * [시작하기](springboot-get-started.md)
+* [Lombok 사용하기](lombok.md)
 * [Freemarker 사용](freemarker.md)
 * [YAML 설정 사용](yaml.md)
 * [Logging 처리](logging.md)
@@ -24,4 +25,5 @@
 * [JDBC](jdbc.md)
 * [Filter](filter.md)
 * [문서화](spring-rest-docs.md)
+* [배치처리](batch.md)
 * [Springboot Embdded Tomcat](springboot-embdded-tomcat.md)
