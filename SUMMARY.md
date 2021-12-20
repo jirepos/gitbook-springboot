@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Page 1](README.md)
+* [SpringBoot 정리](README.md)
 * [시작하기](springboot-get-started.md)
 * [Lombok 사용하기](lombok.md)
 * [Freemarker 사용](freemarker.md)
