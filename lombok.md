@@ -1,6 +1,32 @@
 # Lombok 사용 
 
 
+## Summary 
+
+* @Builder 어노테이션을 사용하는 경우에 @NoArgsConstructor가 없으면 new Bean()으로 인스턴스 생성 안된다. 
+* @Builder 어노테이션을 사용하는 경우에 @NoArgsConstructor가 있으면 @AllArgsConstructor도 선언이 되어야 한다. 
+* 결국 다음과 같이 모두 선언해야 한다. 
+
+```java
+/** Lombok Builder를 테스트하기 위한 Bean */
+@Getter
+@Setter
+// @AllArgsConstructor도 같이 선언되어 있어야 함
+@Builder   // @NoargsConstructor가 선언된 경우에는 이 어노테이션을 사용하지 못함 
+@NoArgsConstructor // @ 이것이 없으면 new LombokBean()으로 샏성 못함 
+@AllArgsConstructor
+public class LombokBean {
+    private String name;
+    private int age;
+    private String address;
+}
+```
+
+
+
+
+
+
 ## Lombok Builder 
 Lombok Builder를 사용하면 간단히  setter를 사용하여 객체의 필드에 값을 채울 수 있다. 
 
