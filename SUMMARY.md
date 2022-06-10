@@ -1,8 +1,8 @@
 # 목차
 
 * [SpringBoot](springboot/README.md)
-  * [시작하기](springboot/springboot-get-started.md)
-  * [Lombok 사용하기](springboot/lombok.md)
+  * [시작하기](springboot/00-springboot-get-started.md)
+  * [Lombok 사용하기](springboot/01-lombok.md)
   * [Freemarker 사용](springboot/freemarker.md)
   * [YAML 설정 사용](springboot/yaml.md)
   * [Logging 처리](springboot/logging.md)
